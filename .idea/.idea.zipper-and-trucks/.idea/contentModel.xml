@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Hakan" t="Include">
           <e p="Scripts" t="Include">
-            <e p="PlatformController.cs" t="Include" />
+            <e p="ElephantController.cs" t="Include" />
+            <e p="PouchController.cs" t="Include" />
+            <e p="SwitchCharacters.cs" t="Include" />
           </e>
         </e>
         <e p="objectsucking.cs" t="Include" />

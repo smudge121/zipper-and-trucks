@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PlatformController : MonoBehaviour
+public class ElephantController : MonoBehaviour
 {
     
     private Rigidbody2D rb;
