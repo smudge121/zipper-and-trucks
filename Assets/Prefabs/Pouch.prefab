@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 70897056567146866}
   - component: {fileID: 50230391106631258}
   m_Layer: 11
-  m_Name: Pouch 1
+  m_Name: Pouch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,7 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb25ec7a14c2b7b4481cc78f21beb625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasPouch: 0
   canJump: 0
   runSpeed: 8
   maxSpeed: 5
