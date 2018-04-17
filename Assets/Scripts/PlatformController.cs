@@ -2,8 +2,6 @@
 
 public class PlatformController : MonoBehaviour
 {
-    public bool hasPouch;
-    //bool isPouchFull
     private Rigidbody2D rb;
     
     private CapsuleCollider2D collider;

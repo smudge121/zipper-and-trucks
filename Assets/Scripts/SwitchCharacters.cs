@@ -5,8 +5,8 @@ using UnityEngine;
 public class SwitchCharacters : MonoBehaviour
 {
 
-	public ElephantController elephantController;
-	public PouchController pouchController;
+	public PlatformController elephantController;
+	public PlatformController pouchController;
 
 	public bool elephantSelected = true;
 	
