@@ -14,8 +14,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="ElephantController.cs" t="Include" />
           <e p="PerfectPixelCamera.cs" t="Include" />
+          <e p="PlatformController.cs" t="Include" />
           <e p="PouchController.cs" t="Include" />
           <e p="SpriteAnimator.cs" t="Include" />
           <e p="SwitchCharacters.cs" t="Include" />
