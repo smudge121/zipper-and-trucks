@@ -2,7 +2,8 @@
 
 public class ElephantController : MonoBehaviour
 {
-    
+    public bool hasPouch;
+    //bool isPouchFull
     private Rigidbody2D rb;
     
     [Header("Movement")]

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b4b91be-30a4-45e8-b19a-465429babb70" name="Default" comment="" />
+    <list default="true" id="5b4b91be-30a4-45e8-b19a-465429babb70" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Hakan/Scripts.meta" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ElephantController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ElephantController.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PouchController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PouchController.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pouch.png" afterPath="$PROJECT_DIR$/Assets/Sprites/pouch.png" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pouch.png.meta" afterPath="$PROJECT_DIR$/Assets/Sprites/pouch.png.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pouch2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/pouch2.png.meta" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,33 +21,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="PouchController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PouchController.cs">
+      <file leaf-file-name="ElephantController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ElephantController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1523329536394" expanded="true" signature="64:1464" ph="{...}" />
-                <marker date="1523329536394" expanded="true" signature="490:544" ph="{...}" />
-                <marker date="1523329536394" expanded="true" signature="610:800" ph="{...}" />
-                <marker date="1523329536394" expanded="true" signature="832:1276" ph="{...}" />
-                <marker date="1523329536394" expanded="true" signature="1302:1462" ph="{...}" />
+                <marker date="1523933154632" expanded="true" signature="67:2393" ph="{...}" />
+                <marker date="1523933154632" expanded="true" signature="776:830" ph="{...}" />
+                <marker date="1523933154632" expanded="true" signature="896:1473" ph="{...}" />
+                <marker date="1523933154632" expanded="true" signature="1505:2205" ph="{...}" />
+                <marker date="1523933154632" expanded="true" signature="1924:2023" ph="{...}" />
+                <marker date="1523933154632" expanded="true" signature="2231:2391" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwitchCharacters.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/SwitchCharacters.cs">
+      <file leaf-file-name="PlatformerController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Unity/Doukutsu/Assets/Scripts/PlatformerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="880">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PouchController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PouchController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
-                <marker date="1523330547775" expanded="false" signature="6:78" ph="..." />
-                <marker date="1523330547775" expanded="true" signature="125:657" ph="{...}" />
-                <marker date="1523330547775" expanded="true" signature="305:408" ph="{...}" />
-                <marker date="1523330547775" expanded="true" signature="462:655" ph="{...}" />
-                <marker date="1523330547775" expanded="true" signature="503:650" ph="{...}" />
+                <marker date="1523933133309" expanded="true" signature="64:1488" ph="{...}" />
+                <marker date="1523933133309" expanded="true" signature="514:568" ph="{...}" />
+                <marker date="1523933133309" expanded="true" signature="634:824" ph="{...}" />
+                <marker date="1523933133309" expanded="true" signature="856:1300" ph="{...}" />
+                <marker date="1523933133309" expanded="true" signature="1326:1486" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,8 +75,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/SwitchCharacters.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PouchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Unity/Doukutsu/Assets/Scripts/PlatformerController.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PouchController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ElephantController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,6 +85,8 @@
         <option value="$PROJECT_DIR$/Assets/Hakan/Scripts/PouchController.cs" />
         <option value="$PROJECT_DIR$/Assets/Hakan/Scripts/PlatformController.cs" />
         <option value="$PROJECT_DIR$/Assets/Hakan/Scripts/SwitchCharacters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ElephantController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PouchController.cs" />
       </list>
     </option>
   </component>
@@ -76,6 +100,9 @@
     <option name="x" value="1270" />
     <option name="width" value="1300" />
     <option name="height" value="1390" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -92,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -99,17 +127,22 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="zipper-and-trucks (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="zipper-and-trucks (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Unity/Doukutsu/Assets/Scripts/PlatformerController.cs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,11 +174,12 @@
       <updated>1518491337756</updated>
       <workItem from="1518491342423" duration="2300000" />
       <workItem from="1523329391552" duration="1510000" />
+      <workItem from="1523933009730" duration="952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3810000" />
+    <option name="totallyTimeSpent" value="4762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -168,7 +202,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14609376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -194,33 +228,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PlatformController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PlatformController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PouchController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
           <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <marker date="1523329536394" expanded="true" signature="64:1464" ph="{...}" />
-            <marker date="1523329536394" expanded="true" signature="490:544" ph="{...}" />
-            <marker date="1523329536394" expanded="true" signature="610:800" ph="{...}" />
-            <marker date="1523329536394" expanded="true" signature="832:1276" ph="{...}" />
-            <marker date="1523329536394" expanded="true" signature="1302:1462" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -228,13 +240,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PlatformController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PlatformController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/PouchController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hakan/Scripts/SwitchCharacters.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PouchController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
-            <marker date="1523330547775" expanded="false" signature="6:78" ph="..." />
-            <marker date="1523330547775" expanded="true" signature="125:657" ph="{...}" />
-            <marker date="1523330547775" expanded="true" signature="305:408" ph="{...}" />
-            <marker date="1523330547775" expanded="true" signature="462:655" ph="{...}" />
-            <marker date="1523330547775" expanded="true" signature="503:650" ph="{...}" />
+            <marker date="1523933133309" expanded="true" signature="64:1488" ph="{...}" />
+            <marker date="1523933133309" expanded="true" signature="514:568" ph="{...}" />
+            <marker date="1523933133309" expanded="true" signature="634:824" ph="{...}" />
+            <marker date="1523933133309" expanded="true" signature="856:1300" ph="{...}" />
+            <marker date="1523933133309" expanded="true" signature="1326:1486" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ElephantController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1523933154632" expanded="true" signature="67:2393" ph="{...}" />
+            <marker date="1523933154632" expanded="true" signature="776:830" ph="{...}" />
+            <marker date="1523933154632" expanded="true" signature="896:1473" ph="{...}" />
+            <marker date="1523933154632" expanded="true" signature="1505:2205" ph="{...}" />
+            <marker date="1523933154632" expanded="true" signature="1924:2023" ph="{...}" />
+            <marker date="1523933154632" expanded="true" signature="2231:2391" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Unity/Doukutsu/Assets/Scripts/PlatformerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -4,6 +4,7 @@ public class PouchController : MonoBehaviour
 {
     
     private Rigidbody2D rb;
+    public bool isFull;
     
     [Header("Movement")]
     
