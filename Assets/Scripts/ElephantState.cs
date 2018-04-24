@@ -6,6 +6,7 @@ public class ElephantState : MonoBehaviour
 {
 
 	public bool hasPouch = false;
+    public bool canAttach = false;
 	
 	// Use this for initialization
 	void Start () {

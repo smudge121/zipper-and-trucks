@@ -44,3 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Elephant
+    uniqueID: 4213542693
+    locked: 0
+  - name: Pouch
+    uniqueID: 2239111677
+    locked: 0

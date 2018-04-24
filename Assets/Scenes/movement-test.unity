@@ -402,6 +402,21 @@ Prefab:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 212929765363804274, guid: 070e0beecbde1a24bb984c54dd82cc5a,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -81424603
+      objectReference: {fileID: 0}
+    - target: {fileID: 212929765363804274, guid: 070e0beecbde1a24bb984c54dd82cc5a,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114715749265204316, guid: 070e0beecbde1a24bb984c54dd82cc5a,
+        type: 2}
+      propertyPath: eleState
+      value: 
+      objectReference: {fileID: 1606127691}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 070e0beecbde1a24bb984c54dd82cc5a, type: 2}
   m_IsPrefabParent: 0
@@ -448,6 +463,16 @@ Prefab:
       propertyPath: m_Name
       value: Pouch
       objectReference: {fileID: 0}
+    - target: {fileID: 212945000202299252, guid: 3bfbdef582f13ca4999e32b7464af103,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -2055855619
+      objectReference: {fileID: 0}
+    - target: {fileID: 212945000202299252, guid: 3bfbdef582f13ca4999e32b7464af103,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
   m_IsPrefabParent: 0
@@ -468,6 +493,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasPouch: 0
+  canAttach: 0
+--- !u!114 &1606127695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606127690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc460d7ec8cd1a64d87982a8b53aacb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eleObj: {fileID: 1606127690}
+  pouchObj: {fileID: 1640000168}
+  eleState: {fileID: 1606127691}
 --- !u!1 &1625449237
 GameObject:
   m_ObjectHideFlags: 0
