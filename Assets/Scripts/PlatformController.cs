@@ -62,17 +62,7 @@ public class PlatformController : MonoBehaviour
         else if (Input.GetAxisRaw("Horizontal") == 1 && facingRight)
             Flip();
 
-        //check if pouch can attach to elephant
-        if (Input.GetButtonDown("Detach")){
-            if(eleState.hasPouch == false && eleState.canAttach == true){
-                eleState.hasPouch = true;
-                Debug.Log("SWITCH TO ATTACHED MODE");
-            }
-            else if (eleState.hasPouch == true) {
-                eleState.hasPouch = false;
-                Debug.Log("SWITCH TO DETACHED MODE");
-            }
-        }
+        
 
         //mario jump
         if (rb.velocity.y < 0)
