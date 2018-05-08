@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b4b91be-30a4-45e8-b19a-465429babb70" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.zipper-and-trucks/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
-    </list>
+    <list default="true" id="5b4b91be-30a4-45e8-b19a-465429babb70" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -319,12 +315,12 @@
       <workItem from="1523329391552" duration="1510000" />
       <workItem from="1523933009730" duration="1786000" />
       <workItem from="1523936575346" duration="768000" />
-      <workItem from="1525748922201" duration="118000" />
+      <workItem from="1525748922201" duration="566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11908000" />
+    <option name="totallyTimeSpent" value="12356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
