@@ -18,6 +18,7 @@
           <e p="Attach.cs" t="Include" />
           <e p="AttachDetach.cs" t="Include" />
           <e p="ElephantState.cs" t="Include" />
+          <e p="Instructions.cs" t="Include" />
           <e p="PerfectPixelCamera.cs" t="Include" />
           <e p="PlatformController.cs" t="Include" />
           <e p="PouchState.cs" t="Include" />
