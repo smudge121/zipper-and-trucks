@@ -34,3 +34,6 @@ sysinfo.txt
 *.unitypackage
 
 /ProjectSettings/ProjectVersion.txt
+
+/Packages/manifest.json
+/ProjectSettings/PresetManager.asset

@@ -6,7 +6,6 @@
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Characters.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -17,6 +16,7 @@
         <e p="Scripts" t="Include">
           <e p="Attach.cs" t="Include" />
           <e p="AttachDetach.cs" t="Include" />
+          <e p="Characters.cs" t="Include" />
           <e p="ElephantState.cs" t="Include" />
           <e p="Instructions.cs" t="Include" />
           <e p="PerfectPixelCamera.cs" t="Include" />
