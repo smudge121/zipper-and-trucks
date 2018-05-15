@@ -17,6 +17,7 @@
           <e p="Attach.cs" t="Include" />
           <e p="AttachDetach.cs" t="Include" />
           <e p="Characters.cs" t="Include" />
+          <e p="ElephantPouchAnimator.cs" t="Include" />
           <e p="ElephantState.cs" t="Include" />
           <e p="Instructions.cs" t="Include" />
           <e p="PerfectPixelCamera.cs" t="Include" />
