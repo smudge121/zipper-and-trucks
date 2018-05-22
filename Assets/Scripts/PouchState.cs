@@ -16,4 +16,9 @@ public class PouchState : MonoBehaviour
 	void Update () {
 		
 	}
+
+    private void Awake()
+    {
+        this.gameObject.SetActive(false);
+    }
 }

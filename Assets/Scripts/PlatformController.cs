@@ -130,7 +130,9 @@ public class PlatformController : MonoBehaviour
     private bool isGrounded()
     {
         Debug.DrawLine(transform.position +btmRight, transform.position +btmLeftOffset);
-        return Physics2D.OverlapArea(transform.position + btmRight, transform.position + btmLeftOffset, groundLayers);
+        //return Physics2D.OverlapArea(transform.position + btmRight, transform.position + btmLeftOffset, groundLayers);
+        return Physics2D.Raycast(transform.position + new Vector3(-0.4f, 0), transform.TransformDirection(Vector3.down), 0.5f)
+            || Physics2D.Raycast(transform.position + new Vector3(0.4f, 0), transform.TransformDirection(Vector3.down), 0.5f);
     }
 
     private void Flip()

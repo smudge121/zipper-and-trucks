@@ -11,6 +11,7 @@ public class SuckShoot : MonoBehaviour {
 	public GameObject suckedItem;
 	
 	int layerMask;
+    int layerMask2;
 
 	private CapsuleCollider2D capsuleCollider;
 	private ElephantState elephantState;
@@ -21,7 +22,7 @@ public class SuckShoot : MonoBehaviour {
 		// set up suckposition
 		capsuleCollider = GetComponent<CapsuleCollider2D>();
 		
-		layerMask = LayerMask.GetMask("Item");
+		layerMask = LayerMask.GetMask("Item", "Key");
 
 		elephantState = GetComponent<ElephantState>();
 	}
@@ -34,7 +35,7 @@ public class SuckShoot : MonoBehaviour {
 			return;
 		}
 		
-		Vector2 suckPosition = (Vector2) transform.position + new Vector2(0, capsuleCollider.size.y * 0.5f);
+		Vector2 suckPosition = (Vector2) transform.position + new Vector2(0, (capsuleCollider.size.y * 0.5f) - 0.2f);
 		
 		Vector2 suckDirection = new Vector2( transform.localScale.x, 0);
 		
@@ -42,7 +43,7 @@ public class SuckShoot : MonoBehaviour {
 		{
 			RaycastHit2D hit = Physics2D.Raycast(suckPosition, suckDirection, suckRange, layerMask);
 
-			Debug.DrawRay(suckPosition, suckDirection);
+            Debug.DrawRay(suckPosition, suckDirection);
 
 			if (hit.collider != null && !suckedItem)
 			{
@@ -54,7 +55,6 @@ public class SuckShoot : MonoBehaviour {
 				suckedItem.SetActive(false);
 
 				elephantState.suckedInObject = true;
-
 			}
 			else
 			{
