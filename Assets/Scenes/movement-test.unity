@@ -192,7 +192,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 53586860}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e5a0d4572d061840aaeeb68995ba763, type: 3}
   m_Name: 
@@ -206,46 +206,46 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 53586860}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 703f7623af540ed4786e46ece324c645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 0}
   animations:
-  - name: Walk
-    fps: 8
-    frames:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    triggers: []
   - name: Idle
     fps: 8
     frames:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300002, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300004, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300006, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300008, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300010, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300012, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300014, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    triggers: []
+  - name: Walk
+    fps: 8
+    frames:
+    - {fileID: 21300016, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300018, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300020, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300022, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300024, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300026, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300028, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
+    - {fileID: 21300030, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
     triggers: []
   - name: Jump
     fps: 8
     frames:
-    - {fileID: 0}
+    - {fileID: 21300032, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
     triggers: []
-  - name: Duck
+  - name: Fall
     fps: 8
     frames:
-    - {fileID: 0}
+    - {fileID: 21300034, guid: cca49dac0b5c88343a257c5c609bc214, type: 3}
     triggers: []
   playAnimationOnStart: 
 --- !u!1 &145633290
@@ -365,6 +365,29 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 50614126755091686, guid: 070e0beecbde1a24bb984c54dd82cc5a,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 0c30dcafa4adf9b44b76e60ae0252920, type: 2}
+    - target: {fileID: 4656370575689766, guid: 070e0beecbde1a24bb984c54dd82cc5a, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656370575689766, guid: 070e0beecbde1a24bb984c54dd82cc5a, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4656370575689766, guid: 070e0beecbde1a24bb984c54dd82cc5a, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 212929765363804274, guid: 070e0beecbde1a24bb984c54dd82cc5a,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cca49dac0b5c88343a257c5c609bc214,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 070e0beecbde1a24bb984c54dd82cc5a, type: 2}
   m_IsPrefabParent: 0
@@ -750,73 +773,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &927169005 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1859439027457284, guid: 3bfbdef582f13ca4999e32b7464af103,
-    type: 2}
-  m_PrefabInternal: {fileID: 1198431964}
---- !u!114 &927169008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 927169005}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 703f7623af540ed4786e46ece324c645, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
-  animations:
-  - name: Walk
-    fps: 8
-    frames:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    triggers: []
-  - name: Idle
-    fps: 8
-    frames:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    triggers: []
-  - name: Jump
-    fps: 8
-    frames:
-    - {fileID: 0}
-    triggers: []
-  - name: Duck
-    fps: 8
-    frames:
-    - {fileID: 0}
-    triggers: []
-  playAnimationOnStart: 
---- !u!114 &927169009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 927169005}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e5a0d4572d061840aaeeb68995ba763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteAnimator: {fileID: 0}
-  platformController: {fileID: 0}
-  rigidbody2D: {fileID: 0}
 --- !u!1001 &1198431964
 Prefab:
   m_ObjectHideFlags: 0
@@ -826,11 +782,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4878461520591718, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.47
+      value: -3.95
       objectReference: {fileID: 0}
     - target: {fileID: 4878461520591718, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.04
+      value: 5.46
       objectReference: {fileID: 0}
     - target: {fileID: 4878461520591718, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
       propertyPath: m_LocalPosition.z
@@ -856,12 +812,51 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114102743752742134, guid: 3bfbdef582f13ca4999e32b7464af103,
+        type: 2}
+      propertyPath: animations.Array.data[3].name
+      value: Fall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114102743752742134, guid: 3bfbdef582f13ca4999e32b7464af103,
+        type: 2}
+      propertyPath: animations.Array.data[0].name
+      value: Walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 114102743752742134, guid: 3bfbdef582f13ca4999e32b7464af103,
+        type: 2}
+      propertyPath: animations.Array.data[1].name
+      value: Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549713046893474, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549713046893474, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549713046893474, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114031925560908510, guid: 3bfbdef582f13ca4999e32b7464af103,
+        type: 2}
+      propertyPath: jumpForce
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 212945000202299252, guid: 3bfbdef582f13ca4999e32b7464af103,
         type: 2}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 212945000202299252, guid: 3bfbdef582f13ca4999e32b7464af103,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f5b5b7f0cec86ac4da46aaa90c1e0132,
+        type: 3}
+    m_RemovedComponents:
+    - {fileID: 114470301460008476, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 3bfbdef582f13ca4999e32b7464af103, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1302508369
@@ -1365,7 +1360,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1835139813}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 9e8c65a0e65e2534b84f3a2ed1219873, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
